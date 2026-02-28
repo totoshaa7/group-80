@@ -1,0 +1,1 @@
+print("welcome", "hi", range(1,10))
