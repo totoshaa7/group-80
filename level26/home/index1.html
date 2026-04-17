@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nested Table</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #2f2f2f;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 30px auto;
+            background: #ddd;
+        }
+
+        th, td {
+            border: 2px solid #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background: #3fb5b5;
+            color: black;
+            font-size: 20px;
+        }
+
+        .inner-table th {
+            background: #f2c94c;
+        }
+
+        .inner-table td {
+            background: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+<table>
+    <tr>
+        <th>Device</th>
+        <th>Brand</th>
+        <th>Specifications</th>
+    </tr>
+
+    <tr>
+        <td>Smartphone</td>
+        <td>Apple</td>
+        <td>
+            <!-- Nested Table -->
+            <table class="inner-table">
+                <tr>
+                    <th>Model</th>
+                    <th>Storage</th>
+                </tr>
+                <tr>
+                    <td>iPhone 12 Pro</td>
+                    <td>256GB</td>
+                </tr>
+                <tr>
+                    <td>iPhone SE</td>
+                    <td>128GB</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Laptop</td>
+        <td>HP</td>
+        <td>15.6" Display</td>
+    </tr>
+
+    <tr>
+        <td>Tablet</td>
+        <td>Samsung</td>
+        <td>10.5" Display</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
