@@ -1,0 +1,43 @@
+ /* CSS rule არის:
+
+selector {
+  property: value;
+}
+
+მაგალითად:
+p {
+  color: red; 1 დეკლარაცია
+  font-size: 20px; 2 დეკლარაცია
+}
+
+
+ External CSS კარგი პრაქტიკაა იმიტომ რომ:
+
+- კოდი არის ორგანიზებული და სუფთა
+- შესაძლებელია ერთ ფაილში ცვლილება და მთელ საიტზე გავრცელება
+- თავიდან გვარიდებს კოდის გამეორებას
+- გუნდში მუშაობისთვის უფრო მოსახერხებელია 
+ */
+ 
+.first {
+  color: blue;
+  background-color: gray;
+  font-size: 30px;
+}
+
+p {
+  color: green;
+  font-size: 18px;
+}
+
+.styled {
+  color: blue;
+  background-color: gray;
+  font-size: 30px;
+}
+
+.img {
+  width: 300px;
+  height: 200px;
+}
+
