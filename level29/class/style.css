@@ -1,0 +1,42 @@
+/* tag selector — ირჩევს ყველა იმ HTML ტეგს (მაგ: p, div, h1) */
+p {
+  color: blue;
+}
+
+/* class selector — ირჩევს ელემენტებს class ატრიბუტის მიხედვით (.classname) */
+.myClass {
+  color: green;
+}
+
+/* id selector — ირჩევს კონკრეტულ ელემენტს id ატრიბუტის მიხედვით (#idname) */
+#myId {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+
+.testClass {
+  color: green;
+}
+
+#testId {
+  color: red;
+}
+
+.box {
+  width: 400px;
+  height: 200px;
+  background-color: lightgray;
+}
+
+.box p {
+  width: 25%;
+  height: 25%;
+  background-color: orange;
+}
+
+.rgbText {
+  color: rgb(255, 0, 0);
+}
