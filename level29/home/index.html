@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Georgia</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            background-color:#f0f4f8;
+            font-family:Arial;
+            color:#222;
+        }
+
+        header{
+            background:linear-gradient(to right, darkblue, purple);
+            color:white;
+            text-align:center;
+            padding:40px;
+        }
+
+        h1{
+            font-size:50px;
+            margin-bottom:10px;
+        }
+
+        p{
+            font-size:18px;
+        }
+
+        nav{
+            background:black;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:20px;
+            font-size:20px;
+        }
+
+        nav a:hover{
+            color:yellow;
+        }
+
+        .container{
+            width:90%;
+            margin:auto;
+            padding:30px;
+        }
+
+        .card{
+            background:white;
+            margin:20px 0;
+            padding:20px;
+            border-radius:15px;
+            box-shadow:0 0 10px gray;
+        }
+
+        .card img{
+            width:100%;
+            border-radius:10px;
+        }
+
+        .title{
+            color:darkblue;
+            margin:15px 0;
+            font-size:35px;
+        }
+
+        #special{
+            background:darkorange;
+            color:white;
+            text-align:center;
+            padding:25px;
+            border-radius:15px;
+            margin-top:20px;
+        }
+
+        h2, h3{
+            font-family:Georgia;
+        }
+
+        .card p{
+            line-height:1.8;
+            color:#444;
+        }
+
+        .info > li{
+            color:darkgreen;
+            margin:10px;
+            font-size:20px;
+        }
+
+        input[type="text"]{
+            width:300px;
+            padding:10px;
+            border:2px solid blue;
+            border-radius:8px;
+        }
+
+        button:hover{
+            background:red;
+            color:white;
+        }
+
+        .title::first-letter{
+            font-size:50px;
+            color:red;
+        }
+
+        button{
+            padding:12px 25px;
+            background:darkblue;
+            color:white;
+            border:none;
+            border-radius:10px;
+            margin-top:15px;
+            cursor:pointer;
+        }
+
+        footer{
+            background:#111;
+            color:white;
+            text-align:center;
+            padding:25px;
+            margin-top:40px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Travel Georgia</h1>
+        <p>აღმოაჩინე საქართველოს ულამაზესი ადგილები</p>
+    </header>
+
+    <nav>
+        <a href="#">მთავარი</a>
+        <a href="#">ადგილები</a>
+        <a href="#">გალერეა</a>
+        <a href="#">კონტაქტი</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Kazbegi%2C_Georgia.jpg">
+
+            <h2 class="title">Kazbegi</h2>
+
+            <p>
+                ყაზბეგი საქართველოს ერთ-ერთი ყველაზე ლამაზი ტურისტული ადგილია.
+            </p>
+
+            <button>იხილე მეტი</button>
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Batumi_Boulevard.jpg">
+
+            <h2 class="title">Batumi</h2>
+
+            <p>
+                ბათუმი ცნობილია ზღვით, ბულვარით და თანამედროვე შენობებით.
+            </p>
+
+            <button>იხილე მეტი</button>
+        </div>
+
+        <div id="special">
+            <h2>რატომ საქართველო?</h2>
+
+            <ul class="info">
+                <li>ლამაზი ბუნება</li>
+                <li>გემრიელი საკვები</li>
+                <li>მეგობრული ხალხი</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>დაგვიკავშირდი</h3>
+
+            <br>
+
+            <input type="text" placeholder="შეიყვანე სახელი">
+
+            <br><br>
+
+            <button>გაგზავნა</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
