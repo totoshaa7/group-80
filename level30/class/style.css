@@ -1,0 +1,45 @@
+body{
+    font-family: Arial;
+    padding: 20px;
+}
+
+.left{
+    text-align: left;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+.justify{
+    text-align: justify;
+    width: 800px;
+}
+
+.shadow{
+    font-size: 40px;
+    text-shadow: 3px 3px 5px gray;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.overline{
+    text-decoration: overline;
+}
+
+.line{
+    text-decoration: line-through;
+}
+
+.green-line{
+    text-decoration: line-through;
+    text-decoration-style: dotted;
+    text-decoration-color: green;
+    font-size: 30px;
+}
